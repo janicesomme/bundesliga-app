@@ -155,9 +155,9 @@ export default function HomePage() {
       {/* Banner Header */}
       <div className="w-full py-1 sm:py-5 px-4" style={{ backgroundColor: '#ec1c24' }}>
         <div className="flex items-center justify-center max-w-4xl mx-auto relative">
-          <img 
-            src="/lovable-uploads/fcaced2e-cef0-4d27-aefa-25f4acc9b7a4.png"
-            alt="FTV Logo"
+          <img
+            src="/THATS FOOTBALL BUNDESLIGA NO THE.png"
+            alt="That's Football Bundesliga Logo"
             className="h-20 w-auto sm:h-24 md:h-28 mr-4 sm:mr-6"
             style={{ marginLeft: '-40px' }}
           />
