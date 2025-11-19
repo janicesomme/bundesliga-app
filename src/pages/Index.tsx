@@ -153,12 +153,20 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-black">
       {/* Banner Header */}
-      <div className="w-full py-1 sm:py-5 px-4" style={{ backgroundColor: '#ec1c24' }}>
+      <div className="w-full py-1 sm:py-5 px-4" style={{ backgroundColor: '#000000' }}>
         <div className="flex items-center justify-center max-w-4xl mx-auto relative">
           <img
             src="/bundesliga-header.png"
             alt="That's Football Bundesliga Logo"
             className="w-full h-auto"
+            style={{
+              width: 'calc(100% + 50px)',
+              maxWidth: 'calc(100% + 50px)',
+              marginLeft: '-25px',
+              marginRight: '-25px',
+              paddingTop: '10px',
+              paddingBottom: '10px'
+            }}
           />
           
           {/* Hamburger Menu - Mobile First */}
