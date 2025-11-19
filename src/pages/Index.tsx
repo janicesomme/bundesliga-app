@@ -158,7 +158,7 @@ export default function HomePage() {
           <img
             src="/THATS FOOTBALL BUNDESLIGA NO THE.png"
             alt="That's Football Bundesliga Logo"
-            className="h-[110px] w-auto sm:h-[126px] md:h-[142px]"
+            className="h-[124px] w-auto sm:h-[140px] md:h-[156px]"
             style={{ maxWidth: 'calc(100% + 60px)' }}
           />
           
