@@ -158,7 +158,8 @@ export default function HomePage() {
           <img
             src="/THATS FOOTBALL BUNDESLIGA NO THE.png"
             alt="That's Football Bundesliga Logo"
-            className="h-20 w-auto sm:h-24 md:h-28"
+            className="h-[90px] w-auto sm:h-[106px] md:h-[122px]"
+            style={{ maxWidth: 'calc(100% + 40px)' }}
           />
           
           {/* Hamburger Menu - Mobile First */}
