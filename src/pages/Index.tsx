@@ -158,12 +158,8 @@ export default function HomePage() {
           <img
             src="/THATS FOOTBALL BUNDESLIGA NO THE.png"
             alt="That's Football Bundesliga Logo"
-            className="h-20 w-auto sm:h-24 md:h-28 mr-4 sm:mr-6"
-            style={{ marginLeft: '-40px' }}
+            className="h-20 w-auto sm:h-24 md:h-28"
           />
-          <h1 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl">
-            Members App
-          </h1>
           
           {/* Hamburger Menu - Mobile First */}
           <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
@@ -193,11 +189,11 @@ export default function HomePage() {
                   <X size={24} />
                 </button>
                 
-                {/* FUTV Logo */}
+                {/* Bundesliga Logo */}
                 <div className="flex justify-center mb-8" style={{ marginTop: '-80px' }}>
-                  <img 
-                    src="/lovable-uploads/703f5319-120d-4554-a7b3-94147e86ee93.png"
-                    alt="FUTV Logo"
+                  <img
+                    src="/THATS FOOTBALL BUNDESLIGA NO THE.png"
+                    alt="That's Football Bundesliga Logo"
                     className="w-[100px] h-auto border border-white rounded"
                   />
                 </div>
