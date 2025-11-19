@@ -156,10 +156,9 @@ export default function HomePage() {
       <div className="w-full py-1 sm:py-5 px-4" style={{ backgroundColor: '#ec1c24' }}>
         <div className="flex items-center justify-center max-w-4xl mx-auto relative">
           <img
-            src="/THATS FOOTBALL BUNDESLIGA NO THE.png"
+            src="/bundesliga-header.png"
             alt="That's Football Bundesliga Logo"
-            className="h-[124px] w-auto sm:h-[140px] md:h-[156px]"
-            style={{ maxWidth: 'calc(100% + 60px)' }}
+            className="w-full h-auto"
           />
           
           {/* Hamburger Menu - Mobile First */}
@@ -193,7 +192,7 @@ export default function HomePage() {
                 {/* Bundesliga Logo */}
                 <div className="flex justify-center mb-8" style={{ marginTop: '-80px' }}>
                   <img
-                    src="/THATS FOOTBALL BUNDESLIGA NO THE.png"
+                    src="/bundesliga-header.png"
                     alt="That's Football Bundesliga Logo"
                     className="w-[100px] h-auto border border-white rounded"
                   />
